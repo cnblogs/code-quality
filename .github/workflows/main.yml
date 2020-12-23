@@ -1,0 +1,24 @@
+name: Release Package
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup NuGet.exe for use with actions
+        uses: NuGet/setup-nuget@v1.0.5
+        with:
+          nuget-api-key: ${{ secrets.NUGETAPIKEY }}
+
+      - name: Nuget Push
+        run: |
+          Version=${GITHUB_REF:10}
+          sed -i "s/\(<RuleSetVersion>\)[^<]*\(<\/RuleSetVersion>\)/\1$Version\2/" ./src/build/Cnblogs.CodeQuality.props
+          nuget pack ./src/Cnblogs.CodeQuality.nuspec -Version "$Version"
+          nuget push ./Cnblogs.CodeQuality.$Version.nupkg -NonInteractive -Source https://api.nuget.org/v3/index.json
