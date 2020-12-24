@@ -1,4 +1,6 @@
 # Cnblogs.CodeQuality
+English | [中文](https://github.com/cnblogs/code-quality/blob/main/README.zh-hans.md)
+
 A bunch of rulesets used by Cnblogs, including StyleCop (`SA-XXXX`) and some other rules (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`).
 
 ## How to use
