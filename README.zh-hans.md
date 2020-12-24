@@ -2,6 +2,8 @@
 
 [English](https://github.com/cnblogs/code-quality/blob/main/README.md) | 中文
 
+![Nuget](https://img.shields.io/nuget/v/Cnblogs.CodeQuality)
+
 博客园开源项目使用的 Roslyn 分析器规则集，包括 StyleCop (`SA-XXXX`) 及其他的一些规则 (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`)。
 
 ## 如何使用
