@@ -12,9 +12,10 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <projectUrl>https://github.com/cnblogs/code-quality</projectUrl>
     <releaseNotes>https://github.com/cnblogs/code-quality/releases</releaseNotes>
+    <repository type="git" branch="main" url="https://github.com/cnblogs/code-quality"></repository>
     <description>Roslyn analyzer rulesets used by Cnblogs</description>
     <dependencies>
-      <dependency id="StyleCop.Analyzers" version="[1.2.0-beta.312,1.3.0)" />
+      <dependency id="StyleCop.Analyzers" version="1.2.0-beta.312" />
     </dependencies>
   </metadata>
 </package>
