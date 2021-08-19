@@ -4,7 +4,7 @@ English | [中文](https://github.com/cnblogs/code-quality/blob/main/README.zh-h
 
 [![Nuget](https://img.shields.io/nuget/v/Cnblogs.CodeQuality)](https://www.nuget.org/packages/Cnblogs.CodeQuality/)
 
-A bunch of rulesets used by Cnblogs, including StyleCop (`SA-XXXX`) and some other rules (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`).
+A bunch of rulesets used by Cnblogs, including StyleCop (`SA-XXXX`) and some other rules (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`, `VSTHRD-XXX`).
 
 ## How to use
 
@@ -14,7 +14,7 @@ If you want to apply it solution wide, add the code below to your `Directory.Bui
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Cnblogs.CodeQuality" Version="1.1.0">
+  <PackageReference Include="Cnblogs.CodeQuality" Version="1.4.0">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   </PackageReference>
