@@ -4,7 +4,7 @@
 
 [![Nuget](https://img.shields.io/nuget/v/Cnblogs.CodeQuality)](https://www.nuget.org/packages/Cnblogs.CodeQuality/)
 
-博客园开源项目使用的 Roslyn 分析器规则集，包括 StyleCop (`SA-XXXX`) 及其他的一些规则 (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`, , `VSTHRD-XXX`)。
+博客园开源项目使用的 Roslyn 分析器规则集，包括 StyleCop (`SA-XXXX`) 及其他的一些规则 (`CA-XXXX`, `IDE-XXXX`, `DOC-XXXX`, `VSTHRD-XXX`)。
 
 ## 如何使用
 
