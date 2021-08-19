@@ -314,4 +314,8 @@
     <Rules AnalyzerId="xunit.analyzers" RuleNamespace="xunit.analyzers">
         <Rule Id="xUnit1013" Action="Error"/>
     </Rules>
+
+    <Rules AnalyzerId="Microsoft.VisualStudio.Threading.Analyzers" RuleNamespace="Microsoft.VisualStudio.Threading.Analyzers">
+        <Rule Id="VSTHRD200" Action="Info" />
+    </Rules>
 </RuleSet>
