@@ -160,9 +160,9 @@
         <Rule Id="SA1201" Action="None"/>             <!-- Elements should appear in the correct order -->
         <Rule Id="SA1202" Action="Warning"/>          <!-- Elements should be ordered by access -->
         <Rule Id="SA1203" Action="Warning"/>          <!-- Constants should appear before fields -->
-        <Rule Id="SA1204" Action="None"/>          <!-- Static elements should appear before instance elements -->
+        <Rule Id="SA1204" Action="None"/>             <!-- Static elements should appear before instance elements -->
         <Rule Id="SA1205" Action="Warning"/>          <!-- Partial elements should declare access -->
-        <Rule Id="SA1206" Action="None"/>          <!-- Declaration keywords should follow order -->
+        <Rule Id="SA1206" Action="Warning"/>             <!-- Declaration keywords should follow order -->
         <Rule Id="SA1207" Action="Warning"/>          <!-- Protected should come before internal -->
         <Rule Id="SA1208" Action="Warning"/>          <!-- System using directives should be placed before other using directives -->
         <Rule Id="SA1209" Action="Warning"/>          <!-- Using alias directives should be placed after other using directives -->
@@ -223,11 +223,11 @@
         <Rule Id="SA1504" Action="Warning"/>          <!-- All accessors should be single-line or multi-line -->
         <Rule Id="SA1505" Action="Warning"/>          <!-- Opening braces should not be followed by blank line -->
         <Rule Id="SA1506" Action="Warning"/>          <!-- Element documentation headers should not be followed by blank line -->
-        <Rule Id="SA1507" Action="Error"/>          <!-- Code should not contain multiple blank lines in a row -->
+        <Rule Id="SA1507" Action="Error"/>            <!-- Code should not contain multiple blank lines in a row -->
         <Rule Id="SA1508" Action="Warning"/>          <!-- Closing braces should not be preceded by blank line -->
         <Rule Id="SA1509" Action="Warning"/>          <!-- Opening braces should not be preceded by blank line -->
         <Rule Id="SA1510" Action="Warning"/>          <!-- Chained statement blocks should not be preceded by blank line -->
-        <Rule Id="SA1511" Action="Warning"/>          <!-- While-do footer should not be preceded by blank line -->
+        <Rule Id="SA1511" Action="None"/>            <!-- While-do footer should not be preceded by blank line -->
         <Rule Id="SA1512" Action="Warning"/>          <!-- Single-line comments should not be followed by blank line -->
         <Rule Id="SA1513" Action="Warning"/>          <!-- Closing brace should be followed by blank line -->
         <Rule Id="SA1514" Action="Warning"/>          <!-- Element documentation header should be preceded by blank line -->
