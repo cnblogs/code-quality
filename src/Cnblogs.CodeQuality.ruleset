@@ -317,5 +317,6 @@
 
     <Rules AnalyzerId="Microsoft.VisualStudio.Threading.Analyzers" RuleNamespace="Microsoft.VisualStudio.Threading.Analyzers">
         <Rule Id="VSTHRD200" Action="Info" />
+        <Rule Id="VSTHRD003" Action="None" />
     </Rules>
 </RuleSet>
