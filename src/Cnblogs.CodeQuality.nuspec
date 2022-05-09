@@ -15,7 +15,7 @@
     <repository type="git" branch="main" url="https://github.com/cnblogs/code-quality"></repository>
     <description>Roslyn analyzer rulesets used by Cnblogs</description>
     <dependencies>
-      <dependency id="StyleCop.Analyzers" version="1.2.0-beta.406" />
+      <dependency id="StyleCop.Analyzers" version="1.2.0-beta.435" />
       <dependency id="Microsoft.VisualStudio.Threading.Analyzers" version="17.1.46" />
     </dependencies>
   </metadata>
