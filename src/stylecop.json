@@ -36,7 +36,8 @@
         },
         "layoutRules": {
             "newlineAtEndOfFile": "allow",
-            "allowConsecutiveUsings": false
+            "allowConsecutiveUsings": false,
+            "allowDoWhileOnClosingBrace": true
         },
         "documentationRules": {
             "documentInterfaces": true,
